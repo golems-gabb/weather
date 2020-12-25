@@ -1,0 +1,28 @@
+weather.admin_settings:
+  path: '/admin/config/services/weather'
+  defaults:
+    _title: 'Weather settings'
+    _form: '\Drupal\weather\Form\WeatherSettingsForm'
+  requirements:
+    _permission: 'administer weather configuration'
+weather.page:
+  path: '/weather'
+  defaults:
+    _title: 'Weather'
+    _form: '\Drupal\weather\Form\WeatherUserForm'
+  requirements:
+    _permission: 'view weather page'
+weather.city_page:
+  path: '/weather/{city}'
+  defaults:
+    _title: 'Weather'
+    _form: '\Drupal\weather\Form\WeatherUserForm'
+  requirements:
+    _permission: 'view weather page'
+weather.country_page:
+  path: '/weather/{city}/{code}'
+  defaults:
+    _title: 'Weather'
+    _form: '\Drupal\weather\Form\WeatherUserForm'
+  requirements:
+    _permission: 'view weather page'

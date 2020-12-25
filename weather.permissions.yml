@@ -1,0 +1,6 @@
+administer weather configuration:
+  title: 'Access the weather configuration'
+  description: 'Access the weather configuration page.'
+view weather page:
+  title: 'Access for view weather page'
+  description: 'Access for view weather page.'

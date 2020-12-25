@@ -1,0 +1,14 @@
+{
+    "name": "golems-gabb/weather",
+    "description": "Simple \"Weather\" module",
+    "type": "drupal-module",
+    "require": {
+        "commerceguys/addressing": "^1.0.7"
+    },
+    "authors": [
+        {
+            "name": "Oleksandr",
+            "email": "pifagor87@gmail.com"
+        }
+    ]
+}

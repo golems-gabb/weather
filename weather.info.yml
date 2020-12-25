@@ -1,0 +1,6 @@
+name: Weather
+description: 'Simple Weather module.'
+type: module
+package: Other
+core_version_requirement: ^8 || ^9
+configure: weather.admin_settings

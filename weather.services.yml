@@ -1,0 +1,10 @@
+services:
+  weather.weather_client:
+    class: Drupal\weather\WeatherClient
+    arguments: [ '@http_client_factory', '@weather.cache', '@datetime.time', '@config.factory', '@module_handler' ]
+  weather.cache:
+    class: Drupal\Core\Cache\CacheBackendInterface
+    tags:
+      - { name: cache.bin }
+    factory: cache_factory:get
+    arguments: [ weather_cache ]

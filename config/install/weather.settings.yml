@@ -1,0 +1,4 @@
+weather_api_endpoint: 'http://api.openweathermap.org/data/2.5/weather'
+weather_api_key: ''
+weather_default_country_code: 'PL'
+weather_default_city: 'Warsaw'

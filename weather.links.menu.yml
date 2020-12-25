@@ -1,0 +1,9 @@
+weather.admin_settings:
+  title: 'Weather settings'
+  parent: system.admin_config_services
+  description: 'Configure Weather settings.'
+  route_name: weather.admin_settings
+weather.page:
+  title: 'Weather'
+  route_name: weather.page
+  menu_name: main
